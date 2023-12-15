@@ -14,3 +14,59 @@ $gradient-soft: linear-gradient(42deg, #323264 14.33%, #323264 51.39%, #7A425E 8
 $gradient-red: linear-gradient(323deg, #F0145A 6.7%, #693264 70.36%);
 $gradient-supersoft: linear-gradient(229deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
 $gradient-red-text: linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%);
+
+h1 {
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h2 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h3 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.h3-caps {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+a {
+  color: $active-regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px
+}
+
+a:hover {
+  color: $Accent;
+}
