@@ -9,6 +9,7 @@ $grey-bg: #F5F5FA;
 $grey-bg-alt: #EDEDF7;
 $grey-text: #B3B3BA;
 $grey-separator: #E6E6F0;
+$basic-white: #FFFFFF;
 $gradient-regular: linear-gradient(129deg, #323264 0%, #323264 73.96%, #A54B5F 100%);
 $gradient-soft: linear-gradient(42deg, #323264 14.33%, #323264 51.39%, #7A425E 87.53%);
 $gradient-red: linear-gradient(323deg, #F0145A 6.7%, #693264 70.36%);
@@ -69,4 +70,15 @@ a {
 
 a:hover {
   color: $Accent;
+}
+
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: $basic-white;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
 }
