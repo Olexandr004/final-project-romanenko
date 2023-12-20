@@ -13,8 +13,13 @@
 	<title>Document</title>
 </head>
 <body>
-<section class="sec-1">
+<header class="sec-1">
 	<div class="container">
+		
+		<div class="symbol">
+			<img src="images/Symbol.svg" alt="symbol">
+		</div>
+		
 		<div class="contacts">
 			<div class="header-top">
 				<span>УК</span>
@@ -27,9 +32,7 @@
 				<p class="tel">0800 211 927</p>
 			</div>
 		</div>
-		<div class="symbol">
-			<img src="images/Symbol.svg" alt="symbol">
-		</div>
+		
 		<div class="flex-header">
 			<div class="header-top">
 				<span>УК</span>
@@ -64,9 +67,6 @@
 				<img src="./images/LAW-COMPANY.svg" alt="Law Company" width="130" height="7">
 			</div>
 			
-			<label for="burger" class="burger-icon"></label>
-			
-			<input type="checkbox" id="burger">
 			<nav class="header-links">
 				<a href="">about us</a>
 				<a href="">services</a>
@@ -74,18 +74,118 @@
 				<a href="">publications</a>
 				<a href="">contact</a>
 			</nav>
-			
+		
 		</div>
+		
+		<div class="header-mobile">
+			<div class="flex-name">
+				<div class="header-logo">
+					<img src="./images/Name.svg" alt="Name" width="70" height="32">
+					<img src="./images/LAW-COMPANY.svg" alt="Law Company" width="70" height="4">
+				</div>
+				<div>
+					<svg width="12" height="26">
+						<use xlink:href="./svg/sprite.svg#assets-slash"/>
+					</svg>
+				</div>
+				<div>
+					<p>services</p>
+				</div>
+			</div>
+			<label for="burger" class="burger-icon">
+				<svg width="32" height="32" fill="white">
+					<use xlink:href="./svg/sprite.svg#burger-icon"/>
+				</svg>
+			</label>
+			<input type="checkbox" id="burger">
+			<nav class="header-links">
+				<div>
+					<svg width="32" height="32">
+						<use xlink:href="./svg/sprite.svg#btn-close"/>
+					</svg>
+				</div>
+				<div class="header-links-2">
+					<a href="">about us</a>
+					<a href="">services</a>
+					<a href="">team</a>
+					<a href="">publications</a>
+					<a href="">contact</a>
+				</div>
+			
+			</nav>
+		
+		</div>
+		
 		
 		<div class="content-center">
 			<h1>you legal solutions provider</h1>
 		</div>
 		
 		<div class="btn-scroll">
-			<a href=""><img src="./images/Scroll.svg" alt="button-scroll"></a>
+			<a href="#sec-2"><img src="./images/Scroll.svg" alt="button-scroll"></a>
 		</div>
-		
+	
 	</div>
-</section>
+</header>
+
+<main>
+	<section class="sec-2" id="sec-2">
+		<div class="container">
+			<div class="tabs">
+				<ul>
+					<li><a href="#tabs-1">Consistent</a></li>
+					<li><a href="#tabs-2">Customer oriented</a></li>
+					<li><a href="#tabs-3">Innovative</a></li>
+					<li><a href="#tabs-4">Business oriented</a></li>
+				</ul>
+				<div class="content-tabs">
+					<div id="tabs-1">
+						<h2>We turn the idea of legal services</h2>
+						<p>Consolidating many years of experience and practice, the company's lawyers accompany complex
+							projects and achieve a number of important decisions for the industry. Many of them form the
+							practice of applying the law of the sea in Ukraine.</p>
+					</div>
+					<div id="tabs-2">
+						<h2>We turn the idea</h2>
+						<p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus
+							id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus
+							eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse
+							sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing.
+							Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla.
+							Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium
+							posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et
+							purus.</p>
+					</div>
+					<div id="tabs-3">
+						<h2>We turn the idea of</h2>
+						<p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel
+							vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante.
+							Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+							Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula
+							tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+					</div>
+					<div id="#tabs-4">
+						<h2>We turn the idea of legal</h2>
+						<p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus.
+							Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit.
+							Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id
+							euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut
+							sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula
+							velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus.
+							Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+</main>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<script>
+	$(function () {
+		$(".tabs").tabs();
+	});
+</script>
 </body>
 </html>
