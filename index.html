@@ -61,12 +61,10 @@
 					<use xlink:href="./svg/sprite.svg#facebook-header"/>
 				</svg>
 			</div>
-			
 			<div class="header-logo">
 				<img src="./images/Name.svg" alt="name" width="130" height="47">
 				<img src="./images/LAW-COMPANY.svg" alt="Law Company" width="130" height="7">
 			</div>
-			
 			<nav class="header-links">
 				<a href="">about us</a>
 				<a href="">services</a>
@@ -74,7 +72,6 @@
 				<a href="">publications</a>
 				<a href="">contact</a>
 			</nav>
-		
 		</div>
 		
 		<div class="header-mobile">
@@ -92,26 +89,19 @@
 					<p>services</p>
 				</div>
 			</div>
-			<label for="burger" class="burger-icon">
-				<svg width="32" height="32" fill="white">
-					<use xlink:href="./svg/sprite.svg#burger-icon"/>
-				</svg>
-			</label>
-			<input type="checkbox" id="burger">
-			<nav class="header-links">
-				<div>
-					<svg width="32" height="32">
-						<use xlink:href="./svg/sprite.svg#btn-close"/>
-					</svg>
-				</div>
-				<div class="header-links-2">
-					<a href="">about us</a>
-					<a href="">services</a>
-					<a href="">team</a>
-					<a href="">publications</a>
-					<a href="">contact</a>
-				</div>
+			<svg width="32" height="32" fill="white" class="burger-icon open">
+				<use xlink:href="./svg/sprite.svg#burger-icon"/>
+			</svg>
 			
+			<nav class="mobile-burger">
+				<svg width="32" height="32" class="burger-icon close">
+					<use xlink:href="./svg/sprite.svg#btn-close"/>
+				</svg>
+				<a href="">about us</a>
+				<a href="">services</a>
+				<a href="">team</a>
+				<a href="">publications</a>
+				<a href="">contact</a>
 			</nav>
 		
 		</div>
@@ -194,14 +184,23 @@
 			
 			<div>
 				<div class="link-services">
-					<a href="" class="h3-caps">Services</a>
-					<img src="./images/Arrow.svg" alt="arrow">
+					<div>
+						<a href="" class="h3-caps">Services
+							<svg width="12" height="13" stroke="#24A3FF">
+								<use xlink:href="./svg/sprite.svg#arrow"/>
+							</svg>
+						</a>
+					
+					</div>
+					
+					<div>
+						<h2>What can we do better than others?</h2>
+					</div>
 				</div>
-				<div>
-					<h2>What can we do better than others?</h2>
-				</div>
+			
 			</div>
 			<div class="flex-sec-3">
+				
 				<div class="card-sec-3">
 					<img src="./images/Ecommerce.svg" alt="ecommerce">
 					<div>
@@ -280,6 +279,11 @@
 </main>
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<script>
+	$('.burger-icon').click((event) => {
+		$('.mobile-burger').toggleClass('open')
+	})
+</script>
 <script>
 	$(function () {
 		$(".tabs").tabs();

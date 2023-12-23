@@ -39,4 +39,10 @@
             <path d="M25 7L7 25" stroke="#EC6F5D" stroke-width="2"/>
         </g>
     </symbol>
+
+    <symbol id="arrow" viewBox="0 0 12 13">
+        <g>
+            <path d="M3.5 2L8 6.5L3.5 11"  stroke-width="2"/>
+        </g>
+    </symbol>
 </svg>
