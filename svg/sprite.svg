@@ -42,7 +42,7 @@
 
     <symbol id="arrow" viewBox="0 0 12 13">
         <g>
-            <path d="M3.5 2L8 6.5L3.5 11"  stroke-width="2"/>
+            <path d="M3.5 2L8 6.5L3.5 11"  stroke-width="2" fill="none"/>
         </g>
     </symbol>
 
