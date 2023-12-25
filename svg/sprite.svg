@@ -21,7 +21,7 @@
 
     <symbol id="circle" viewBox="0 0 6 6">
         <g>
-            <circle cx="3" cy="3.5" r="3" fill="#E6E6F0"/>
+            <circle cx="3" cy="3.5" r="3"/>
         </g>
     </symbol>
 

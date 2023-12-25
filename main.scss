@@ -729,6 +729,93 @@
   }
 }
 
+footer {
+  background: $grey-bg;
+  padding: 30px;
+}
+
+.footer-flex {
+  padding-top: 30px;
+  border-top: 2px $grey-separator solid;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  text-align: center;
+
+  p {
+    color: $grey-text;
+  }
+}
+
+.flex-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 21px;
+
+  svg:not(#facebook-footer) {
+    display: none;
+  }
+
+  .footer-content-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    p {
+      color: $main-regular;
+      line-height: normal;
+    }
+  }
+
+  .footer-content-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    p {
+      color: $main-alt;
+      font-weight: 700;
+      line-height: normal;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  footer {
+    padding: 30px 60px;
+  }
+  .footer-flex {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .flex-content {
+    align-items: start;
+    .footer-content-1 {
+      flex-direction: row;
+      align-items: center;
+    }
+
+    .footer-content-2 {
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+
+  .flex-content svg:not(#facebook-footer) {
+    display: block;
+  }
+}
+
+@media (min-width: 1920px) {
+  footer {
+    padding: 30px 160px;
+  }
+}
+
 
 
 
