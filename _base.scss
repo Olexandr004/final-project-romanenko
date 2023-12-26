@@ -16,6 +16,18 @@ $gradient-red: linear-gradient(323deg, #F0145A 6.7%, #693264 70.36%);
 $gradient-super-soft: linear-gradient(229deg, #323264 11.93%, #323264 57.17%, #643E72 87.46%);
 $gradient-red-text: linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%);
 $gradient-Text-Red-Reversed: linear-gradient(90deg, #EF8080 0.84%, #F0145A 99.96%);
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  list-style-type: none;
+}
 h1 {
   font-size: 38px;
   font-style: normal;
@@ -86,4 +98,28 @@ body {
     max-width: 1600px;
     margin: 0 auto;
   }
+}
+
+button {
+  background: $active-regular;
+  box-shadow: 0 0 20px rgba(36, 163, 255, 0.5);
+  border-radius: 12px;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 16px 16px 17px;
+  max-width: 250px;
+  width: 100%;
+  text-align: center;
+  color: $basic-white;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+button:hover {
+  background: $active-hover;
+  box-shadow: 0 0 30px rgba(36, 163, 255, 0.5);
+}
+button:active {
+  box-shadow: none;
+  background: $active-active;
 }
