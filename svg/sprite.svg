@@ -57,4 +57,11 @@
             </clipPath>
         </defs>
     </symbol>
+
+    <symbol id="arrow-2" viewBox="0 0 32 32">
+        <g>
+            <circle cx="16" cy="16" r="16"/>
+            <path d="M13.5 23.5L20.5 16.5L13.5 9.5" stroke-width="2"/>
+        </g>
+    </symbol>
 </svg>
