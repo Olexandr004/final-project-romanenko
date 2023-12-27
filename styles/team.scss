@@ -3,6 +3,61 @@
 body {
   background: $basic-white;
 }
+.flex-header {
+  margin-bottom: 0;
+}
+.header-links-2, .header-links {
+  a {
+    color: $active-regular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    cursor: pointer;
+  }
+}
+
+.flex-name {
+  p {
+    font-size: 20px;
+    color: $main-regular;
+  }
+}
+
+.flex-name-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+  p {
+    color: $main-regular;
+    font-size: 36px;
+  }
+}
+
+.contacts {
+  background: $grey-bg;
+  span:not(:last-child){
+    color: $grey-text;
+  }
+}
+
+.header-top {
+  .tel{
+    color: $grey-text;
+  }
+  span{
+    color: $grey-text;
+    &:nth-child(3) {
+      color: $basic-white;
+    }
+  }
+  svg:last-child {
+    fill: $grey-text;
+  }
+}
+
+
 
 .sec-1 {
   padding: 30px;
@@ -56,7 +111,7 @@ body {
   gap: 15px;
 }
 
-.flex-content {
+.flex-container{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -87,4 +142,12 @@ svg:hover {
       height: 400px;
     }
   }
+}
+
+footer {
+  background: $grey-bg;
+}
+
+.footer-flex {
+  border-top: none;
 }

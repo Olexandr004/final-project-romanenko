@@ -156,6 +156,10 @@ button:active {
   .tel {
     color: $basic-white;
     font-weight: 700;
+    cursor: pointer;
+    &:hover {
+      color: $Accent;
+    }
   }
 }
 
@@ -370,6 +374,9 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    a {
+      font-weight: 700;
+    }
 
     p {
       color: $main-regular;
@@ -381,6 +388,9 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    a {
+      font-weight: 700;
+    }
 
     p {
       color: $main-alt;
@@ -422,4 +432,12 @@ footer {
   footer {
     padding: 30px 160px;
   }
+}
+
+#facebook-header:hover {
+  fill: $Accent;
+}
+
+#facebook-footer:hover {
+  fill: $Accent;
 }
