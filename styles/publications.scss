@@ -1,0 +1,17 @@
+@import "../base";
+
+.sec-1 {
+  position: relative;
+  height: 100vh;
+
+  .symbol {
+    img {
+      z-index: -1;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 0;
+      height: 100vh;
+    }
+  }
+}
