@@ -5,7 +5,30 @@
   flex-direction: row;
   align-items: center;
   gap: 4px;
-  p {
-
+  @media (min-width: 768px) {
+    p {
+      font-size: 36px;
+    }
   }
+}
+
+.sec-5 {
+  background: $basic-white;
+}
+.card-sec-5 {
+  padding-bottom: 30px;
+  @media (min-width: 768px) {
+    padding-bottom: 60px;
+  }
+  @media (min-width: 1920px) {
+    padding-bottom: 60px;
+  }
+}
+
+footer {
+  background: $grey-bg;
+}
+
+.footer-flex {
+  border-top: none;
 }
