@@ -1,1 +1,137 @@
 @import "../base";
+
+@media (min-width: 768px) {
+  .flex-header {
+    margin-bottom: 60px;
+  }
+}
+
+.header-links-2, .header-links {
+  a {
+    color: $active-regular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    cursor: pointer;
+  }
+}
+
+.flex-name {
+  p {
+    font-size: 20px;
+    color: $main-regular;
+  }
+}
+
+.flex-name-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+
+  p {
+    color: $main-regular;
+    font-size: 36px;
+  }
+}
+
+.contacts {
+  background: $grey-bg;
+
+  span:not(:last-child) {
+    color: $grey-text;
+  }
+}
+
+.header-top {
+  .tel {
+    color: $grey-text;
+  }
+
+  span {
+    color: $grey-text;
+
+    &:nth-child(3) {
+      color: $basic-white;
+    }
+  }
+
+  svg:last-child {
+    fill: $grey-text;
+  }
+}
+
+.flex-publications {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  .btn {
+    margin: 19px auto;
+    max-width: 211px;
+    a {
+      background: $active-regular;
+      box-shadow: 0 0 20px rgba(36, 163, 255, 0.5);
+      border-radius: 12px;
+      font-size: 14px;
+      line-height: 17px;
+      padding: 18px 30px;
+      text-align: center;
+      color: $basic-white;
+      transition: all 0.3s;
+      cursor: pointer;
+      max-width: 211px;
+    }
+
+    a:hover {
+      background: $active-hover;
+      box-shadow: 0 0 30px rgba(36, 163, 255, 0.5);
+    }
+
+    a:active {
+      box-shadow: none;
+      background: $active-active;
+    }
+  }
+
+}
+
+@media (min-width: 768px) {
+  .grid-sec-6 {
+    grid-template-columns: repeat(auto-fill, minmax(47%, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid-sec-6 {
+    grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+  }
+}
+
+.segment {
+  background: $grey-separator;
+  width: 100%;
+  max-width: 233px;
+  margin: 0 auto;
+  display: flex;
+  gap: 2px;
+  border-radius: 12px;
+  padding: 2px;
+
+  h4 {
+    color: $main-regular;
+    padding: 8px 30px 10px 30px;
+  }
+
+  .news {
+    background: $basic-white;
+    border-radius: 12px;
+  }
+}
+
+
+footer {
+  background: $grey-bg;
+}
+

@@ -9,13 +9,13 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap"
 	      rel="stylesheet">
-	
-	<link rel="stylesheet" href="../main.css">
+	<link rel="stylesheet" href="../styles/reset.css">
 	<link rel="stylesheet" href="../styles/services.css">
 	<title>Services</title>
 </head>
 <body>
-<header>
+<div class="gradient">
+	<header>
 		<div class="contacts">
 			<div class="header-top">
 				<span>УК</span>
@@ -78,11 +78,11 @@
 						<use xlink:href="../svg/sprite.svg#circle"/>
 					</svg>
 					<a href="https://www.facebook.com/" target="_blank">
-						<svg width="24" height="24">
+						<svg width="24" height="24" fill="white" id="facebook-header">
 							<use xlink:href="../svg/sprite.svg#facebook-header"/>
 						</svg>
 					</a>
-					
+				
 				</div>
 				<nav class="header-links-2">
 					<a href="./about.html">about us</a>
@@ -124,15 +124,14 @@
 				<a href="./contact.html">contact</a>
 			</nav>
 		</div>
-</header>
-<main>
+	</header>
 	<section class="sec-3">
 		<div class="container">
 			
 			<div>
-					<div class="services-content">
-						<h2>What can we do better than others?</h2>
-					</div>
+				<div class="services-content">
+					<h2>What can we do better than others?</h2>
+				</div>
 			</div>
 			<div class="flex-sec-3">
 				
@@ -202,6 +201,12 @@
 			</div>
 		</div>
 	</section>
+</div>
+<div class="decoration">
+	<div class="dec-1"></div>
+	<div class="dec-2"></div>
+</div>
+<main>
 	
 	<section class="sec-5">
 		<h3 class="h3-caps">They already trust us</h3>
@@ -298,5 +303,13 @@
 		</div>
 	</div>
 </footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<script>
+	$('.burger-icon').click((event) => {
+		$('.mobile-burger').toggleClass('open')
+	})
+</script>
 </body>
 </html>

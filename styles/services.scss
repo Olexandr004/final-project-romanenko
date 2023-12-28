@@ -1,4 +1,14 @@
 @import "../base";
+body {
+  background: $basic-white;
+}
+
+.flex-header {
+  margin-bottom: 60px;
+}
+.header-mobile {
+  margin-bottom: 30px;
+}
 
 .flex-name-2 {
   display: flex;
@@ -14,6 +24,9 @@
 
 .sec-5 {
   background: $basic-white;
+  h3 {
+    padding-top: 0;
+  }
 }
 .card-sec-5 {
   @media (min-width: 1920px) {
@@ -27,4 +40,10 @@ footer {
 
 .footer-flex {
   border-top: none;
+}
+.services-content {
+  margin-bottom: 30px;
+  @media (min-width: 768px) {
+    margin-bottom: 60px;
+  }
 }
