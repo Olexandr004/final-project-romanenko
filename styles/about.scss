@@ -1,0 +1,218 @@
+@import "../base";
+
+
+@media (min-width: 768px) {
+  .flex-header {
+    margin-bottom: 60px;
+  }
+}
+
+.header-links-2, .header-links {
+  a {
+    color: $active-regular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    cursor: pointer;
+  }
+}
+
+.flex-name {
+  p {
+    font-size: 20px;
+    color: $main-regular;
+  }
+}
+
+.flex-name-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+
+  p {
+    color: $main-regular;
+    font-size: 36px;
+  }
+}
+
+.contacts {
+  background: $grey-bg;
+
+  span:not(:last-child) {
+    color: $grey-text;
+  }
+}
+
+.header-top {
+  .tel {
+    color: $grey-text;
+  }
+
+  span {
+    color: $grey-text;
+
+    &:nth-child(3) {
+      color: $basic-white;
+    }
+  }
+
+  svg:last-child {
+    fill: $grey-text;
+  }
+}
+
+.sec-1 {
+  padding: 30px;
+  @media (min-width: 768px) {
+    padding: 60px;
+  }
+  @media (min-width: 1920px) {
+    padding: 60px 280px;
+  }
+
+  h2 {
+    background: $gradient-red-text;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    @media (min-width: 768px) {
+      font-size: 38px;
+    }
+  }
+
+  h1 {
+    background: $gradient-red-text;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  p {
+    font-size: 19px;
+    color: #000000;
+    line-height: 30px;
+  }
+}
+
+.flex-sec-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  @media (min-width: 1024px) {
+    flex-direction: row;
+  }
+}
+
+.flex-text {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  @media (min-width: 1024px) {
+    width: 93%;
+  }
+}
+
+.flex-items {
+  padding-left: 30px;
+  border-left: 4px solid $grey-separator;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  .small-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+  }
+}
+
+.sec-2 {
+  position: relative;
+  background: url("../images/Team-375.jpg") center center / cover no-repeat;
+  min-height: 114px;
+  height: 100%;
+  width: 100%;
+  @media (min-width: 600px) {
+    background: url("../images/Team-768.jpg") center center / cover no-repeat;
+    min-height: 233px;
+  }
+  @media (min-width: 820px) {
+    background: url("../images/Team-1024.jpg") center center / cover no-repeat;
+    min-height: 311px;
+  }
+  @media (min-width: 1280px) {
+    background: url("../images/Team-1440.jpg") center center / cover no-repeat;
+    min-height: 438px;
+  }
+  @media (min-width: 1600px) {
+    background: url("../images/Team-1920.jpg") center center / cover no-repeat;
+    min-height: 584px;
+  }
+  h1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0 15px 30px rgba(40, 40, 86, 0.80);
+    letter-spacing: 13px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+}
+
+.sec-3 {
+  padding: 30px 30px 60px 30px;
+  @media (min-width: 768px) {
+    padding: 60px;
+  }
+  @media (min-width: 1920px) {
+    padding: 60px 280px;
+  }
+}
+
+.team-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  @media (min-width: 1024px) {
+    flex-direction: row;
+    gap: 60px;
+    width: 100%;
+    .rc {
+      width: 43%;
+    }
+    .lc {
+      width: 57%;
+    }
+  }
+  @media (min-width: 1920px) {
+    .rc {
+      width: 28%;
+    }
+    .lc {
+      width: 72%;
+    }
+  }
+  p {
+    color: #000000;
+    font-size: 19px;
+    line-height: 30px;
+  }
+  h2 {
+    background: $gradient-red-text;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    @media (min-width: 768px) {
+      font-size: 38px;
+    }
+  }
+}

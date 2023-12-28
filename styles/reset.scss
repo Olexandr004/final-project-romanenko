@@ -232,6 +232,8 @@
 
       &:hover {
         color: $Accent;
+        padding-bottom: 3px;
+        border-bottom: 2px solid $Accent;
       }
     }
   }
@@ -671,7 +673,7 @@ footer {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 820px) {
   .grid-sec-6 {
     grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
   }
