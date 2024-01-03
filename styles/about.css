@@ -337,6 +337,16 @@ button:active {
 
 .sec-4 {
   background: #F5F5FA;
+  padding: 30px 60px;
+}
+@media (min-width: 1920px) {
+  .sec-4 {
+    padding: 30px 160px;
+  }
+}
+
+.slider {
+  width: 100%;
 }
 
 .flex-sec-4 {
@@ -345,19 +355,45 @@ button:active {
   justify-content: center;
   align-items: center;
   gap: 30px;
-  padding: 30px 60px;
 }
 .flex-sec-4 h3 {
   color: #323264;
 }
-@media (min-width: 1920px) {
-  .flex-sec-4 {
-    padding: 30px 160px;
-  }
+
+.slide {
+  display: flex;
+  height: 110px;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 0;
+  border-radius: 12px;
+  background: #FFFFFF;
+}
+
+.slide-1 {
+  padding: 25px 58px;
+}
+
+.slide-2 {
+  padding: 25px 70px 25px 71px;
+  justify-content: center;
+}
+
+.slide-3 {
+  padding: 25px 52px 25px 53px;
+}
+
+.slide-4 {
+  padding: 25px 67px;
+}
+
+.slick-slide {
+  margin: 0 40px;
 }
 
 .slick-dots {
-  bottom: -50px;
+  position: absolute;
+  bottom: -50%;
 }
 .slick-dots:hover {
   color: #006CCF;
@@ -372,6 +408,10 @@ button:active {
 .slick-dots li button:before {
   font-size: 16px;
   box-shadow: none;
+}
+
+footer {
+  background: #F5F5FA;
 }
 
 /*# sourceMappingURL=about.css.map */
