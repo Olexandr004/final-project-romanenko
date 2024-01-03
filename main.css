@@ -278,7 +278,7 @@ body {
 .slider .flex-slide .link-services h1 {
   font-size: 24px;
 }
-@media (min-width: 375px) {
+@media (min-width: 600px) {
   .slider .flex-slide .link-services h1 {
     font-size: 30px;
   }
@@ -297,6 +297,10 @@ body {
 
 .slick-dots {
   bottom: -50px;
+}
+.slick-dots:hover {
+  color: #006CCF;
+  opacity: 0.6;
 }
 .slick-dots li.slick-active button:before {
   color: #24A3FF;

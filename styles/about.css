@@ -335,4 +335,43 @@ button:active {
   }
 }
 
+.sec-4 {
+  background: #F5F5FA;
+}
+
+.flex-sec-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 60px;
+}
+.flex-sec-4 h3 {
+  color: #323264;
+}
+@media (min-width: 1920px) {
+  .flex-sec-4 {
+    padding: 30px 160px;
+  }
+}
+
+.slick-dots {
+  bottom: -50px;
+}
+.slick-dots:hover {
+  color: #006CCF;
+  opacity: 0.6;
+}
+.slick-dots li.slick-active button:before {
+  color: #24A3FF;
+}
+.slick-dots li button {
+  box-shadow: none;
+}
+.slick-dots li button:before {
+  font-size: 16px;
+  box-shadow: none;
+}
+
 /*# sourceMappingURL=about.css.map */

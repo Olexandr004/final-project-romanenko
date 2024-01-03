@@ -207,7 +207,7 @@ body {
 
       h1 {
         font-size: 24px;
-        @media (min-width: 375px) {
+        @media (min-width: 600px) {
           font-size: 30px;
         }
       }
@@ -230,6 +230,11 @@ body {
 
 .slick-dots {
   bottom: -50px;
+
+  &:hover {
+    color: $active-active;
+    opacity: 0.6;
+  }
 
   li {
     &.slick-active button:before {

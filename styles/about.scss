@@ -156,6 +156,7 @@
     background: url("../images/Team-1920.jpg") center center / cover no-repeat;
     min-height: 584px;
   }
+
   h1 {
     position: absolute;
     left: 50%;
@@ -201,11 +202,13 @@
       width: 72%;
     }
   }
+
   p {
     color: #000000;
     font-size: 19px;
     line-height: 30px;
   }
+
   h2 {
     background: $gradient-red-text;
     background-clip: text;
@@ -213,6 +216,50 @@
     -webkit-text-fill-color: transparent;
     @media (min-width: 768px) {
       font-size: 38px;
+    }
+  }
+}
+
+.sec-4 {
+  background: $grey-bg;
+}
+
+.flex-sec-4 {
+  h3 {
+    color: $main-regular;
+  }
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 60px;
+  @media (min-width: 1920px) {
+    padding: 30px 160px;
+  }
+}
+
+
+.slick-dots {
+  bottom: -50px;
+
+  &:hover {
+    color: $active-active;
+    opacity: 0.6;
+  }
+
+  li {
+    &.slick-active button:before {
+      color: $active-regular;
+
+    }
+    button {
+      box-shadow: none;
+    }
+    button:before {
+      font-size: 16px;
+      box-shadow: none;
     }
   }
 }
