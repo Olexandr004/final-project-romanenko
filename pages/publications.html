@@ -11,11 +11,12 @@
 	      rel="stylesheet">
 	<link rel="stylesheet" href="../styles/reset.css">
 	<link rel="stylesheet" href="../styles/publications.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<title>Publications</title>
 	<link rel="icon" type="image/x-icon" href="../images/favicon.jpg">
 </head>
 <body>
-<header>
+<header data-aos="fade-down" data-aos-delay="100">
 	<div class="contacts">
 		<div class="header-top">
 			<span>УК</span>
@@ -132,7 +133,7 @@
 						<h4>articles</h4>
 				</div>
 				<div class="grid-sec-6">
-					<div class="card-sec-6">
+					<div class="card-sec-6" data-aos="fade-up" data-aos-delay="300">
 						<img src="../images/Cover-1.jpg" alt="cover">
 						<div class="content-sec-6">
 							<div>
@@ -147,7 +148,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="card-sec-6">
+					<div class="card-sec-6" data-aos="fade-up" data-aos-delay="400">
 						<img src="../images/Cover-2.jpg" alt="cover">
 						<div class="content-sec-6">
 							<div>
@@ -163,7 +164,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="card-sec-6">
+					<div class="card-sec-6" data-aos="fade-up" data-aos-delay="500">
 						<img src="../images/Cover-3.jpg" alt="cover">
 						<div class="content-sec-6">
 							<div>
@@ -178,7 +179,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="card-sec-6">
+					<div class="card-sec-6" data-aos="fade-up" data-aos-delay="600">
 						<img src="../images/Publication-5.jpg" alt="cover">
 						<div class="content-sec-6">
 							<div>
@@ -194,7 +195,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="card-sec-6">
+					<div class="card-sec-6" data-aos="fade-up" data-aos-delay="700">
 						<img src="../images/Publication-4.jpg" alt="cover">
 						<div class="content-sec-6">
 							<div>
@@ -209,7 +210,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="card-sec-6">
+					<div class="card-sec-6" data-aos="fade-up" data-aos-delay="800">
 						
 						<div class="content-sec-6">
 							<div>
@@ -236,7 +237,7 @@
 	</section>
 </main>
 
-<footer>
+<footer data-aos="fade-down" data-aos-delay="200">
 	<div class="container">
 		<div class="footer-flex">
 			<div class="flex-content">
@@ -286,13 +287,16 @@
 		</div>
 	</div>
 </footer>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 <script>
 	$('.burger-icon').click((event) => {
 		$('.mobile-burger').toggleClass('open')
 	})
+</script>
+<script>
+	AOS.init();
 </script>
 </body>
 </html>

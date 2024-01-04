@@ -11,11 +11,12 @@
 	      rel="stylesheet">
 	<title>Team</title>
 	<link rel="icon" type="image/x-icon" href="../images/favicon.jpg">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link rel="stylesheet" href="../styles/reset.css">
 	<link rel="stylesheet" href="../styles/team.css">
 </head>
 <body>
-<header>
+<header data-aos="fade-down" data-aos-delay="100">
 	<div class="contacts">
 		<div class="header-top">
 			<span>УК</span>
@@ -127,13 +128,13 @@
 	<section class="sec-1">
 		<div class="container">
 			<div class="content-center">
-				<h1>We are used to taking responsibility and always guarantee honest, timely assistance, even in
+				<h1 data-aos="fade-right" data-aos-delay="200">We are used to taking responsibility and always guarantee honest, timely assistance, even in
 					situations
 					where most are powerless.</h1>
 			</div>
 			
 			<div class="grid-team">
-				<div class="card">
+				<div class="card" data-aos="fade-up" data-aos-delay="300">
 					<img src="../images/Team-1.jpg" alt="Alexander Alexandrovsky">
 					<div class="flex-container">
 						<div class="content-name">
@@ -144,14 +145,14 @@
 						</div>
 						<div>
 							<a href="./oleksandr.html">
-								<svg width="32" height="32" fill="#F5F5FA" stroke="#24A3FF" >
+								<svg width="32" height="32" fill="#F5F5FA" stroke="#24A3FF">
 									<use xlink:href="../svg/sprite.svg#arrow-2"/>
 								</svg>
 							</a>
 						</div>
 					</div>
 				</div>
-				<div class="card">
+				<div class="card" data-aos="fade-up" data-aos-delay="400">
 					<img src="../images/Team-2.jpg" alt="Evgeny Patrikov">
 					<div class="flex-container">
 						<div class="content-name">
@@ -162,14 +163,14 @@
 						</div>
 						<div>
 							<a href="./evgeniy.html">
-								<svg width="32" height="32" fill="#F5F5FA" stroke="#24A3FF" >
+								<svg width="32" height="32" fill="#F5F5FA" stroke="#24A3FF">
 									<use xlink:href="../svg/sprite.svg#arrow-2"/>
 								</svg>
 							</a>
 						</div>
 					</div>
 				</div>
-				<div class="card">
+				<div class="card" data-aos="fade-up" data-aos-delay="500">
 					<img src="../images/Team-3.jpg" alt="Vladislav Melnik">
 					<div class="flex-container">
 						<div class="content-name">
@@ -180,14 +181,14 @@
 						</div>
 						<div>
 							<a href="./vladislav.html">
-								<svg width="32" height="32" fill="#F5F5FA" stroke="#24A3FF" >
+								<svg width="32" height="32" fill="#F5F5FA" stroke="#24A3FF">
 									<use xlink:href="../svg/sprite.svg#arrow-2"/>
 								</svg>
 							</a>
 						</div>
 					</div>
 				</div>
-				<div class="card">
+				<div class="card" data-aos="fade-up" data-aos-delay="600">
 					<img src="../images/Team-4.jpg" alt="Sergey Binn">
 					<div class="flex-container">
 						<div class="content-name">
@@ -205,7 +206,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="card">
+				<div class="card" data-aos="fade-up" data-aos-delay="700">
 					<img src="../images/Team-5.jpg" alt="Oksana Kobzar">
 					<div class="flex-container">
 						<div class="content-name">
@@ -216,14 +217,14 @@
 						</div>
 						<div>
 							<a href="./oksana.html">
-								<svg width="32" height="32" fill="#F5F5FA" stroke="#24A3FF" >
+								<svg width="32" height="32" fill="#F5F5FA" stroke="#24A3FF">
 									<use xlink:href="../svg/sprite.svg#arrow-2"/>
 								</svg>
 							</a>
 						</div>
 					</div>
 				</div>
-				<div class="card">
+				<div class="card" data-aos="fade-up" data-aos-delay="800">
 					<img src="../images/Team-6.jpg" alt="Julia Wolk">
 					<div class="flex-container">
 						<div class="content-name">
@@ -234,7 +235,7 @@
 						</div>
 						<div>
 							<a href="./julia.html">
-								<svg width="32" height="32" fill="#F5F5FA" stroke="#24A3FF" >
+								<svg width="32" height="32" fill="#F5F5FA" stroke="#24A3FF">
 									<use xlink:href="../svg/sprite.svg#arrow-2"/>
 								</svg>
 							</a>
@@ -247,7 +248,7 @@
 	</section>
 
 </main>
-<footer>
+<footer data-aos="fade-down" data-aos-delay="200">
 	<div class="container">
 		<div class="footer-flex">
 			<div class="flex-content">
@@ -298,10 +299,14 @@
 
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
 	$('.burger-icon').click((event) => {
 		$('.mobile-burger').toggleClass('open')
 	})
+</script>
+<script>
+	AOS.init();
 </script>
 </body>
 </html>

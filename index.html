@@ -17,12 +17,13 @@
 	      crossorigin="anonymous" referrerpolicy="no-referrer"/>
 	<link rel="stylesheet" href="./styles/reset.css">
 	<link rel="stylesheet" href="./main.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<title>Homepage</title>
 	<link rel="icon" type="image/x-icon" href="./images/favicon.jpg">
 </head>
 <body>
 <div class="gradient">
-	<header class="sec-1">
+	<header class="sec-1" data-aos="fade-down" data-aos-delay="100">
 		<div class="container">
 			
 			<div class="symbol">
@@ -535,6 +536,7 @@
 	</footer>
 
 </main>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
@@ -562,6 +564,9 @@
 	$(function () {
 		$(".tabs").tabs();
 	});
+</script>
+<script>
+	AOS.init();
 </script>
 </body>
 </html>

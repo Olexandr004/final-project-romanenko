@@ -14,13 +14,13 @@
 	
 	<link rel="stylesheet" href="../styles/reset.css">
 	<link rel="stylesheet" href="../styles/team-entry.css">
-	
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<title>Oksana Kobzar</title>
 	<link rel="icon" type="image/x-icon" href="../images/favicon.jpg">
 </head>
 <body>
 
-<header>
+<header data-aos="fade-down" data-aos-delay="100">
 	<div class="contacts">
 		<div class="header-top">
 			<span>УК</span>
@@ -211,7 +211,7 @@
 	
 </main>
 
-<footer>
+<footer data-aos="fade-down" data-aos-delay="200">
 	<div class="container">
 		<div class="footer-flex">
 			<div class="flex-content">
@@ -261,7 +261,7 @@
 		</div>
 	</div>
 </footer>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 <script>
@@ -269,6 +269,8 @@
 		$('.mobile-burger').toggleClass('open')
 	})
 </script>
-
+<script>
+	AOS.init();
+</script>
 </body>
 </html>

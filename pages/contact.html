@@ -11,11 +11,12 @@
 	      rel="stylesheet">
 	<link rel="stylesheet" href="../styles/reset.css">
 	<link rel="stylesheet" href="../styles/contact.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<title>Contact</title>
 	<link rel="icon" type="image/x-icon" href="../images/favicon.jpg">
 </head>
 <body>
-<header>
+<header data-aos="fade-down" data-aos-delay="100">
 		<div class="contacts">
 			<div class="header-top">
 				<span>УК</span>
@@ -127,7 +128,7 @@
 	<section class="sec-1">
 		<div class="container">
 			<div class="flex">
-				<div class="lc">
+				<div class="lc" data-aos="fade-up">
 					<div class="contact-1">
 						<h3>Kyiv,</h3>
 						<h3>Mechnikova str, 14</h3>
@@ -150,7 +151,7 @@
 					
 					</div>
 				</div>
-				<form class="contact-form">
+				<form class="contact-form" data-aos="flip-up" data-aos-delay="500">
 					<div>
 						<h2>We would like to help you</h2>
 					</div>
@@ -174,7 +175,7 @@
 		</div>
 	</section>
 </main>
-<footer>
+<footer data-aos="fade-down" data-aos-delay="200">
 	<div class="container">
 		<div class="footer-flex">
 			<div class="flex-content">
@@ -222,13 +223,16 @@
 		</div>
 	</div>
 </footer>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 <script>
 	$('.burger-icon').click((event) => {
 		$('.mobile-burger').toggleClass('open')
 	})
+</script>
+<script>
+	AOS.init();
 </script>
 </body>
 </html>

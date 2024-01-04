@@ -11,12 +11,13 @@
 	      rel="stylesheet">
 	<link rel="stylesheet" href="../styles/reset.css">
 	<link rel="stylesheet" href="../styles/services.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<title>Services</title>
 	<link rel="icon" type="image/x-icon" href="../images/favicon.jpg">
 </head>
 <body>
 <div class="gradient">
-	<header>
+	<header data-aos="fade-down" data-aos-delay="100">
 		<div class="contacts">
 			<div class="header-top">
 				<span>УК</span>
@@ -217,50 +218,50 @@
 	<section class="sec-5">
 		<h3 class="h3-caps">They already trust us</h3>
 		<div class="card-sec-5">
-			<div class="card-1">
+			<div class="card-1" data-aos="flip-up" data-aos-delay="100">
 				<img src="../images/Hillel-Logo-OneLine-White-Uk.svg" alt="hillel">
 			</div>
 			
-			<div class="card-2">
+			<div class="card-2" data-aos="flip-up" data-aos-delay="200">
 				<img src="../images/wannabiz.svg" alt="WannaBiz">
 			</div>
 			
-			<div class="card-3">
+			<div class="card-3" data-aos="flip-up" data-aos-delay="300">
 				<img src="../images/tapgerine.svg" alt="tapgerine">
 			</div>
 			
-			<div class="card-4">
+			<div class="card-4" data-aos="flip-up" data-aos-delay="400">
 				<img src="../images/3dlook.svg" alt="3DLook">
 			</div>
 			
-			<div class="card-5">
+			<div class="card-5" data-aos="flip-up" data-aos-delay="500">
 				<img src="../images/orangear.svg" alt="orangeAr">
 			</div>
-			<div class="card-6">
+			<div class="card-6" data-aos="flip-up" data-aos-delay="600">
 				<img src="../images/adTelligent.svg" alt="adTelligent">
 			</div>
-			<div class="card-7">
+			<div class="card-7" data-aos="flip-up" data-aos-delay="700">
 				<img src="../images/clickky.svg" alt="Clickky">
 			</div>
-			<div class="card-8">
+			<div class="card-8" data-aos="flip-up" data-aos-delay="800">
 				<img src="../images/ecolease.svg" alt="ecolease">
 			</div>
-			<div class="card-9">
+			<div class="card-9" data-aos="flip-up" data-aos-delay="900">
 				<img src="../images/infraTek.svg" alt="infraTek">
 			</div>
-			<div class="card-10">
+			<div class="card-10" data-aos="flip-up" data-aos-delay="1000">
 				<img src="../images/city-park.svg" alt="city-park">
 			</div>
-			<div class="card-11">
+			<div class="card-11" data-aos="flip-up" data-aos-delay="1100">
 				<img src="../images/art-print-studio.svg" alt="art-print-studio">
 			</div>
-			<div class="card-12">
+			<div class="card-12" data-aos="flip-up" data-aos-delay="1200">
 				<img src="../images/ultimate-card.svg" alt="">
 			</div>
 		</div>
 	</section>
 </main>
-<footer>
+<footer data-aos="fade-down" data-aos-delay="200">
 	<div class="container">
 		<div class="footer-flex">
 			<div class="flex-content">
@@ -309,13 +310,16 @@
 		</div>
 	</div>
 </footer>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 <script>
 	$('.burger-icon').click((event) => {
 		$('.mobile-burger').toggleClass('open')
 	})
+</script>
+<script>
+	AOS.init();
 </script>
 </body>
 </html>
