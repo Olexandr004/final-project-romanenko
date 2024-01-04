@@ -216,7 +216,6 @@
       gap: 6.5px;
     }
 
-    margin-bottom: 269px;
   }
   .header-links {
     display: flex;
@@ -232,7 +231,6 @@
 
       &:hover {
         color: $Accent;
-        padding-bottom: 3px;
         border-bottom: 2px solid $Accent;
       }
     }
@@ -260,7 +258,6 @@
 
       &:hover {
         color: $Accent;
-        padding-bottom: 3px;
         border-bottom: 2px solid $Accent;
       }
     }

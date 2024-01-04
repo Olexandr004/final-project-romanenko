@@ -315,7 +315,6 @@ button:active {
     display: flex;
     flex-direction: column-reverse;
     gap: 30px;
-    margin-bottom: 269px;
   }
   .flex-header .header-top {
     display: flex;
@@ -340,7 +339,6 @@ button:active {
   }
   .header-links a:hover {
     color: #F0145A;
-    padding-bottom: 3px;
     border-bottom: 2px solid #F0145A;
   }
 }
@@ -365,7 +363,6 @@ button:active {
   }
   .header-links-2 a:hover {
     color: #F0145A;
-    padding-bottom: 3px;
     border-bottom: 2px solid #F0145A;
   }
   .contact-links {

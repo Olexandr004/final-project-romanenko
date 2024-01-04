@@ -300,3 +300,12 @@
 footer {
   background: $grey-bg;
 }
+
+.header-links, .header-links-2 {
+  a {
+    border-bottom: 2px solid $basic-white;
+    &:hover {
+      border-bottom: 2px solid $Accent;
+    }
+  }
+}

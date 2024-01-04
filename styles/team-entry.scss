@@ -195,3 +195,20 @@ footer {
   padding-top: 0;
   border-top: none;
 }
+
+@media (min-width: 1440px) {
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+}
+
+.header-links, .header-links-2 {
+  a {
+    border-bottom: 2px solid $basic-white;
+    &:hover {
+      border-bottom: 2px solid $Accent;
+    }
+  }
+}

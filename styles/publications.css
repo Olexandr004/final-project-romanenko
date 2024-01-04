@@ -224,4 +224,11 @@ footer {
   background: #F5F5FA;
 }
 
+.header-links a, .header-links-2 a {
+  border-bottom: 2px solid #FFFFFF;
+}
+.header-links a:hover, .header-links-2 a:hover {
+  border-bottom: 2px solid #F0145A;
+}
+
 /*# sourceMappingURL=publications.css.map */
