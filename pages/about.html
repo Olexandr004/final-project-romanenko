@@ -211,9 +211,8 @@
 	</section>
 	
 	<section class="sec-4">
-		<div class="flex-sec-4">
-			<h3 class="h3-caps">achievements</h3>
 			<div class="container">
+				<h3 class="h3-caps">achievements</h3>
 				<div class="slider">
 					<div class="slide slide-1">
 						<img src="../images/Achievment-1.jpg" alt="">
@@ -252,8 +251,27 @@
 						<img src="../images/Achievment-4.jpg" alt="">
 					</div>
 				</div>
+				<div class="slider-2">
+					<div class="slide slide-1">
+						<img src="../images/Achievment-1.jpg" alt="">
+					</div>
+					<div class="slide slide-2">
+						<img src="../images/Achievment-2.jpg" alt="">
+					</div>
+					<div class="slide slide-3">
+						<img src="../images/Achievment-3.jpg" alt="">
+					</div>
+					<div class="slide slide-4">
+						<img src="../images/Achievment-4.jpg" alt="">
+					</div>
+					<div class="slide slide-1">
+						<img src="../images/Achievment-1.jpg" alt="">
+					</div>
+					<div class="slide slide-2">
+						<img src="../images/Achievment-2.jpg" alt="">
+					</div>
+				</div>
 			</div>
-		</div>
 	</section>
 </main>
 <footer>
@@ -322,6 +340,21 @@
 			autoplay: true,
 			slidesToShow: 4,
 			slidesToScroll: 4,
+		});
+	});
+</script>
+<script>
+	$(document).ready(function () {
+		$('.slider-2').slick({
+			infinite: true,
+			lazyload: 'on-demand',
+			dots: true,
+			arrows: false,
+			autoplay: true,
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			centerMode: true,
+			variableWidth: true
 		});
 	});
 </script>
