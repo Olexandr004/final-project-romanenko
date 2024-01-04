@@ -511,6 +511,9 @@ footer {
   margin-bottom: 15px;
   color: #24A3FF;
 }
+.flex-sec-3 .card-sec-3 h3:hover {
+  color: #F0145A;
+}
 
 @media (min-width: 768px) {
   .sec-3 {

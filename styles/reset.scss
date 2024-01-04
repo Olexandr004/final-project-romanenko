@@ -428,6 +428,9 @@ footer {
     h3 {
       margin-bottom: 15px;
       color: $active-regular;
+      &:hover {
+        color: $Accent;
+      }
     }
   }
 }
