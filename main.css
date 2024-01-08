@@ -148,7 +148,8 @@ body {
 .sec-2 a {
   color: #B3B3BA;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 24px;
+  white-space: nowrap;
 }
 .sec-2 a:active {
   background: linear-gradient(90deg, #EF8080 0.84%, #F0145A 99.96%);

@@ -46,7 +46,8 @@ body {
   a {
     color: $grey-text;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 24px;
+    white-space: nowrap;
 
     &:active {
       background: $gradient-Text-Red-Reversed;
