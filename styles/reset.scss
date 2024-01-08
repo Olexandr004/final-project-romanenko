@@ -121,9 +121,11 @@
   }
 
   .header-logo {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
+    a {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
   }
 
   p {
@@ -211,9 +213,11 @@
     }
 
     .header-logo {
-      display: flex;
-      flex-direction: column;
-      gap: 6.5px;
+      a {
+        display: flex;
+        flex-direction: column;
+        gap: 6.5px;
+      }
     }
 
   }
@@ -388,14 +392,16 @@ footer {
     flex-direction: column;
     gap: 10px;
     margin-bottom: 30px;
-
-    svg:hover {
-      stroke: $Accent;
+    & a:hover {
+      svg {
+        stroke: $Accent;
+      }
     }
 
     .services {
       display: flex;
       flex-direction: row;
+
 
       .h3-caps {
         display: flex;
@@ -418,8 +424,8 @@ footer {
     gap: 30px;
 
     img {
-      max-width: 64px;
-      max-height: 64px;
+      max-width: 92px;
+      max-height: 92px;
       padding: 14px;
       background: $basic-white;
       border-radius: 24px;
@@ -610,9 +616,12 @@ footer {
       gap: 2px;
     }
 
-    svg:hover {
-      stroke: $Accent;
+    a:hover {
+      svg {
+        stroke: $Accent;
+      }
     }
+
   }
 
   p {

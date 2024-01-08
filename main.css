@@ -267,7 +267,7 @@ body {
   gap: 30px;
   width: 100%;
 }
-.slider .flex-slide .link-services svg:hover {
+.slider .flex-slide .link-services a:hover svg {
   stroke: #F0145A;
 }
 .slider .flex-slide .link-services .h3-caps {

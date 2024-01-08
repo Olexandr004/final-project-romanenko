@@ -193,10 +193,11 @@ body {
       gap: 30px;
       width: 100%;
 
-      svg:hover {
-        stroke: $Accent;
+      a:hover {
+        svg {
+          stroke: $Accent;
+        }
       }
-
 
       .h3-caps {
         display: flex;

@@ -238,7 +238,7 @@ button:active {
   flex-direction: row;
   gap: 4px;
 }
-.header-mobile .header-logo {
+.header-mobile .header-logo a {
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -320,7 +320,7 @@ button:active {
     display: flex;
     align-items: center;
   }
-  .flex-header .header-logo {
+  .flex-header .header-logo a {
     display: flex;
     flex-direction: column;
     gap: 6.5px;
@@ -476,7 +476,7 @@ footer {
   gap: 10px;
   margin-bottom: 30px;
 }
-.sec-3 .link-services svg:hover {
+.sec-3 .link-services a:hover svg {
   stroke: #F0145A;
 }
 .sec-3 .link-services .services {
@@ -501,8 +501,8 @@ footer {
   gap: 30px;
 }
 .flex-sec-3 .card-sec-3 img {
-  max-width: 64px;
-  max-height: 64px;
+  max-width: 92px;
+  max-height: 92px;
   padding: 14px;
   background: #FFFFFF;
   border-radius: 24px;
@@ -670,7 +670,7 @@ footer {
   align-items: center;
   gap: 2px;
 }
-.sec-6 .link-services svg:hover {
+.sec-6 .link-services a:hover svg {
   stroke: #F0145A;
 }
 .sec-6 p {

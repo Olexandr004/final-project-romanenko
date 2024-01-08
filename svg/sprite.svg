@@ -55,20 +55,15 @@
     </symbol>
 
     <symbol id="btn-scroll" viewBox="0 0 42 42">
-        <g clip-path="url(#clip0_22728_11339)">
-            <circle opacity="0.5" cx="21" cy="21" r="20" stroke-width="2"/>
-            <path d="M12 18L21 27L30 18" stroke-width="2"/>
+        <g>
+            <circle opacity="0.5" cx="21" cy="21" r="20" stroke-width="2" fill="none"/>
+            <path d="M12 18L21 27L30 18" stroke-width="2" fill="none"/>
         </g>
-        <defs>
-            <clipPath id="clip0_22728_11339">
-                <rect width="42" height="42" fill="white"/>
-            </clipPath>
-        </defs>
     </symbol>
 
     <symbol id="arrow-2" viewBox="0 0 32 32">
         <g>
-            <circle cx="16" cy="16" r="16"/>
+            <circle cx="16" cy="16" r="16" stroke="none"/>
             <path d="M13.5 23.5L20.5 16.5L13.5 9.5" stroke-width="2"/>
         </g>
     </symbol>
