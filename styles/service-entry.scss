@@ -23,6 +23,26 @@ body {
   }
 }
 
+.sec-1 {
+  padding: 0 30px 34px 30px ;
+  border-bottom: 4px solid $grey-separator;
+}
+
+.flex-sec-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-items: center;
+  text-align: center;
+  img {
+    background: $basic-white;
+    max-width: 92px;
+    max-height: 92px;
+    padding: 14px;
+    border-radius: 24px;
+  }
+}
+
 footer {
   background: $grey-bg;
 }
