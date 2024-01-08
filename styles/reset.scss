@@ -11,6 +11,7 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 60px;
+
   .dec-1 {
     background: #CACADB;
     height: 10px;
@@ -29,6 +30,7 @@
       width: 97.92%;
     }
   }
+
   .dec-2 {
     background: #E7E7F2;
     height: 10px;
@@ -392,6 +394,7 @@ footer {
     flex-direction: column;
     gap: 10px;
     margin-bottom: 30px;
+
     & a:hover {
       svg {
         stroke: $Accent;
@@ -434,6 +437,7 @@ footer {
     h3 {
       margin-bottom: 15px;
       color: $active-regular;
+
       &:hover {
         color: $Accent;
       }
@@ -462,6 +466,7 @@ footer {
     padding: 0 160px;
   }
 }
+
 .sec-5 {
   background: $grey-bg;
 
@@ -670,7 +675,7 @@ footer {
     padding: 30px 60px 0 60px;
   }
   .grid-sec-6 {
-    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(45%, 1fr));
   }
   .grid-area {
     grid-area: 2 / 1 / 2 /3;
@@ -696,3 +701,4 @@ footer {
     padding: 30px 160px 0 160px;
   }
 }
+

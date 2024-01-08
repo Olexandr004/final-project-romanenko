@@ -155,8 +155,17 @@ footer {
 .header-links, .header-links-2 {
   a {
     border-bottom: 2px solid $basic-white;
+    &:nth-child(3) {
+      color: $Accent;
+      border-bottom: 2px solid $Accent;
+    }
     &:hover {
       border-bottom: 2px solid $Accent;
     }
   }
+}
+
+.active {
+  color: $Accent;
+  border-bottom: 2px solid $Accent;
 }
