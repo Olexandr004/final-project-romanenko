@@ -152,6 +152,10 @@ body {
     padding: 0 280px;
   }
 }
+.sec-1 p {
+  color: #B3B3BA;
+  font-size: 18px;
+}
 
 .flex-sec-1 {
   display: flex;
@@ -174,6 +178,12 @@ body {
   padding: 14px;
   border-radius: 24px;
 }
+.flex-sec-1 h2 {
+  background: linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
 .sec-2 {
   padding: 30px 30px 0 30px;
@@ -193,6 +203,10 @@ body {
     padding: 30px 280px 0 280px;
   }
 }
+.sec-2 p {
+  color: #B3B3BA;
+  font-size: 18px;
+}
 
 .flex-area {
   display: flex;
@@ -211,10 +225,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 30px;
-}
-.flex-sec-2 p {
-  color: #B3B3BA;
-  font-size: 18px;
 }
 
 .lc, .rc {
