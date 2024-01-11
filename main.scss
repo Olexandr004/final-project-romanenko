@@ -2,9 +2,17 @@
 body {
   background: $grey-bg;
 }
+
+header {
+  overflow: hidden;
+}
+
 .sec-1 {
   position: relative;
   height: 100vh;
+  @media (max-width: 768px) {
+    height: 90vh;
+  }
 
   .symbol {
     img {
@@ -14,6 +22,9 @@ body {
       transform: translateX(-50%);
       top: 0;
       height: 100vh;
+      @media (max-width: 768px) {
+        height: 90vh;
+      }
     }
   }
 

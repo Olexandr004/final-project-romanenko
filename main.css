@@ -114,9 +114,18 @@ body {
   background: #F5F5FA;
 }
 
+header {
+  overflow: hidden;
+}
+
 .sec-1 {
   position: relative;
   height: 100vh;
+}
+@media (max-width: 768px) {
+  .sec-1 {
+    height: 90vh;
+  }
 }
 .sec-1 .symbol img {
   z-index: 0;
@@ -125,6 +134,11 @@ body {
   transform: translateX(-50%);
   top: 0;
   height: 100vh;
+}
+@media (max-width: 768px) {
+  .sec-1 .symbol img {
+    height: 90vh;
+  }
 }
 .sec-1 .content-center {
   position: absolute;
