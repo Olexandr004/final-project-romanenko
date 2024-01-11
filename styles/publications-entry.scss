@@ -1,0 +1,139 @@
+@import "../base";
+
+.header-links-2, .header-links {
+  a {
+    color: $active-regular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    cursor: pointer;
+  }
+}
+
+.flex-name {
+  p {
+    font-size: 20px;
+    color: $main-regular;
+  }
+}
+
+.flex-name-2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+
+  p {
+    color: $main-regular;
+    font-size: 36px;
+  }
+}
+
+.contacts {
+  background: $grey-bg;
+
+  span:not(:last-child) {
+    color: $grey-text;
+  }
+}
+
+.header-top {
+  .tel {
+    color: $grey-text;
+  }
+
+  span {
+    color: $grey-text;
+
+    &:nth-child(3) {
+      color: $basic-white;
+    }
+  }
+
+  svg:last-child {
+    fill: $grey-text;
+  }
+}
+
+.sec-1 {
+  padding: 30px;
+  @media (min-width: 768px) {
+    padding: 60px;
+  }
+  @media (min-width: 1440px) {
+    padding: 60px 180px;
+  }
+  @media (min-width: 1920px) {
+    padding: 60px 280px;
+  }
+}
+
+.flex-sec-1 {
+  padding-bottom: 34px;
+  border-bottom: 4px solid $grey-separator;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  img {
+    border-radius: 12px;
+    height: 300px;
+    object-fit: cover;
+    @media (min-width: 768px) {
+      height: 500px;
+    }
+  }
+  p {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: $grey-text;
+  }
+  h3 {
+    font-size: 20px;
+    color: $main-regular;
+    margin-bottom: 15px;
+  }
+}
+
+.sec-2 {
+  padding: 0 30px;
+  @media (min-width: 768px) {
+    padding: 0 60px;
+  }
+  @media (min-width: 1440px) {
+    padding: 0 180px;
+  }
+  @media (min-width: 1920px) {
+    padding: 0 280px;
+  }
+}
+
+.flex-sec-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  p {
+    color: #000000;
+  }
+  h1 {
+    background: $gradient-red-text;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+
+.header-links, .header-links-2 {
+  a {
+    border-bottom: 2px solid $basic-white;
+    &:nth-child(4) {
+      color: $Accent;
+      border-bottom: 2px solid $Accent;
+    }
+    &:hover {
+      border-bottom: 2px solid $Accent;
+    }
+  }
+}
