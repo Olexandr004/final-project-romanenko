@@ -115,7 +115,7 @@ body {
 }
 
 header {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .sec-1 {
@@ -138,6 +138,7 @@ header {
 @media (max-width: 768px) {
   .sec-1 .symbol img {
     height: 90vh;
+    left: 53%;
   }
 }
 .sec-1 .content-center {
